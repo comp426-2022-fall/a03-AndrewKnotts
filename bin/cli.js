@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 import minimist from "minimist"
-import { roll } from "/lib/roll.js"
+import { roll } from "../lib/roll.js"
 
 //reads in the command
-const args = minimist(proccess.argv.slice(2));
+const args = minimist(process.argv.slice(2));
 
 //default values to be set if not specified
 const sides = args.sides || 6;
